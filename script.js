@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function addStudent() {
 
     var name = document.getElementById("name").value;
@@ -11,7 +10,7 @@ function addStudent() {
     row.insertCell(0).innerHTML = name;
     row.insertCell(1).innerHTML = roll;
     row.insertCell(2).innerHTML = department;
-=======
+}
 function searchStudent() {
 
     var search = document.getElementById("search").value.toLowerCase();
@@ -30,5 +29,4 @@ function searchStudent() {
             rows[i].style.display = "none";
         }
     }
->>>>>>> search
 }
